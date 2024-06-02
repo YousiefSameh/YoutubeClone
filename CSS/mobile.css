@@ -1,0 +1,33 @@
+@media only screen and (min-width: 300px) and (max-width: 1005px) {
+  .desktop-h {
+    display: none;
+  }
+  .mobile-header .nav-right a {
+    background-color: #eee;
+  }
+  .mobile-header {
+    display: flex;
+    z-index: 5;
+    background-color: white;
+    
+  }
+  main .left-side {
+    display: none;
+  }
+  main .m-bottom-side {
+    display: flex;
+    z-index: 6;
+  }
+  main .content {
+    margin-left: 0;
+  }
+  main .content .video {
+    width: calc(50% - 16px);
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  main .content .video {
+    width: 100%;
+  }
+}
